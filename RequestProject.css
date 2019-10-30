@@ -1,0 +1,113 @@
+#Container
+{
+    display: grid;
+    grid-auto-flow : dense;
+    grid-template-columns: repeat(auto-fit, minmax(25vw, 1fr));
+    grid-auto-flow:row;
+    /* justify-content: center;
+    align-content: center; */
+    grid-gap : 10px;
+}
+.secondDiv
+{
+    display: flex;
+    justify-content: center;
+    grid-gap: 1vw;
+    position: relative;
+}
+img
+{
+    width: 25vw;
+    /* max-width: 688.82px; */
+    height: auto;
+    
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    border : 20px solid rgb(241, 35, 35);
+    margin-top: 110px;
+    
+}
+.siamak
+{
+    grid-row : span 2;
+}
+.secondDiv:hover img
+{
+    opacity: 0.5;
+}
+.secondDiv:hover .icon1 , .secondDiv:hover .icon2  , .secondDiv:hover .icon3
+{
+    display: inline;
+}
+.icon1
+{
+    color: rgb(235, 232, 32);
+    font-size: 30px;
+    position: absolute;
+    bottom: 0%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    display: none;
+}
+.icon2
+{
+    color: rgb(235, 232, 32);
+    font-size: 30px;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    display: none;
+}
+.icon3
+{
+    color: rgb(235, 232, 32);
+    border : none;
+    outline: none;
+    font-size: 30px;
+    position: absolute;
+    bottom: 0%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    display: none;
+    background-color: transparent;
+}
+/* .icon4
+{
+    position: absolute;
+    left: 23%;
+    bottom: 20%;
+    size: 9px;
+    display: none;
+} */
+  
+.fa-download:hover 
+{
+    color: rgb(214, 72, 72);
+}
+.fa-share-alt-square:hover 
+{
+    color: rgb(214, 72, 72);
+}
+.fa-gratipay:hover 
+{
+    color: rgb(214, 72, 72);
+}
+/* .loading
+{
+    background: transparent url('http://thinkfuture.com/wp-content/uploads/2013/10/loading_spinner.gif') center no-repeat;
+}  */
+
+
+
+
+
